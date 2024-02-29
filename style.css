@@ -1,0 +1,81 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #12372A;
+}
+
+.Quiz{
+    background: #FBFADA ;
+    width: 90%; /*It decides that the element will occupy what percent of total screen*/
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    padding:30px;
+}
+
+.Quiz h1{
+    font-size: 40px;
+    font-weight: 600;
+    border-bottom: 1px solid #333;
+    padding: 30px;
+}
+
+.question{
+    padding: 20px 0;
+}
+
+.question h2{
+    font-size: 20px;
+    font-weight: 600 ;
+
+}
+
+.btn{
+    
+    font-weight:500;
+    width: 100%;
+    border: 1px solid #222;
+    padding: 10px;
+    margin: 10px 0;
+    text-align:left;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.btn:hover:not([disabled]){
+    background: #222;
+    color: #fff;
+}
+
+.btn:disabled{
+    cursor:no-drop;
+}
+
+
+#next{
+    background: #12372A;
+    color: whitesmoke;
+    font-weight: 500;
+    width: 150px;
+    border: 1px solid #222;
+    padding:10px;
+    margin: 20px auto 0;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block; 
+    
+}
+
+.correct{
+    background: #37704f;
+
+}
+
+.incorrect{
+    background: #ff9393;
+}
